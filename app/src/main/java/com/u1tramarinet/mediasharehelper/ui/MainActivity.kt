@@ -68,7 +68,6 @@ class MainActivity : ComponentActivity() {
     private fun share(text: String?, imageUri: Uri?) {
         LogUtil.methodIn(TAG, "text=$$text, imageUri=$imageUri")
         if (text == null && imageUri == null) {
-            hoge()
             LogUtil.methodOut(TAG, "both null.")
             return
         }
@@ -87,11 +86,6 @@ class MainActivity : ComponentActivity() {
         }
         startActivity(intent)
         LogUtil.methodOut(TAG)
-    }
-
-    private fun hoge() {
-        LogUtil.methodIn(TAG, "test")
-        LogUtil.methodOut(TAG, "")
     }
 
     companion object {

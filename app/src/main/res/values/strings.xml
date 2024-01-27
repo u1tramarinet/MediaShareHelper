@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">MediaShareHelper</string>
+    <string name="delete">削除する</string>
+    <string name="share">共有する</string>
+    <string name="back">戻る</string>
+    <string name="settings">設定</string>
+    <string name="add_image">画像を追加する</string>
+    <string name="change_image">画像を変更する</string>
+    <string name="add_artist">アーティストを追加する</string>
+    <string name="add_tag">タグを追加する</string>
+    <string name="confirm_histories">履歴を見る</string>
+    <string name="shared_media">共有したメディア一覧</string>
+    <string name="shared_tags">共有したタグ一覧</string>
+    <string name="shared_artists">共有したアーティスト一覧</string>
+    <string name="presets">プリセット一覧</string>
 </resources>
